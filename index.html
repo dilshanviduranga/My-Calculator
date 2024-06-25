@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <table border="5">
+        <tr>
+            <td colspan="4"><input type="text" id="txtfield">
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" id="btn" onclick="add7()"></td>
+            <td><input type="button" value="8" id="btn" onclick="add8()"></td>
+            <td><input type="button" value="9" id="btn" onclick="add9()"></td>
+            <td><input type="button" value="*" id="btn" class="multi" onclick="addMultiplication()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" id="btn" onclick="add4()"></td>
+            <td><input type="button" value="5" id="btn" onclick="add5()"></td>
+            <td><input type="button" value="6" id="btn" onclick="add6()"></td>
+            <td><input type="button" value="-" id="btn" class="minus" onclick="addMinus()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" id="btn" onclick="add1()"></td>
+            <td><input type="button" value="2" id="btn" onclick="add2()"></td>
+            <td><input type="button" value="3" id="btn" onclick="add3()"></td>
+            <td><input type="button" value="/" id="btn" class="divide"  onclick="adddivider()"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" id="btn" onclick="add0()"></td>
+            <td><input type="button" value="." id="btn" class="dot" onclick="adddot()"></td>
+            <td><input type="button" value="=" id="btn" onclick="total()"></td>
+            <td><input type="button" value="+" id="btn" class="add"  onclick="addAddition()"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="button" value="Clear"  id="clrbtn" onclick="cleartxtfield()"></td>
+        </tr>
+    </table>
+    <script src="Js/app.js"></script>
+</body>
+</html>
